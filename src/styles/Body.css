@@ -8,6 +8,8 @@
 }
 .body-section{
     background: linear-gradient(to right, rgb(237, 193, 128), rgb(1, 1, 53));
+    position: relative;
+    z-index: 1;
 }
 .text-left h3{
     font-size: 2rem;
