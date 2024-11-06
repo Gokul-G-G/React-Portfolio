@@ -1,0 +1,25 @@
+.project-image{
+    width: 250px;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 120px;
+}
+.body-section{
+    background: linear-gradient(to right, rgb(237, 193, 128), rgb(1, 1, 53));
+}
+.text-left h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.text-left p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(199, 196, 196);
+}
+.borderLine{
+    padding: 40px 0px;
+    border-bottom: 2px solid white;
+}

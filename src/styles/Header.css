@@ -1,0 +1,15 @@
+.logo{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.navbar{
+     background: linear-gradient(to right, rgb(237, 193, 128), rgb(1, 1, 53));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav{
+ color: white !important;
+}
+.nav:hover{
+ color: rgb(178, 171, 171) !important;
+}

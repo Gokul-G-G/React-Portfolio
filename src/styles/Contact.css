@@ -1,0 +1,67 @@
+.head{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.para{
+   font-size: 1.2rem;
+   color: white;
+}
+.number,sup{
+     font-family: 'Playfair Display', serif;
+     font-weight: 600;
+    font-size: 2rem;
+    color: white;
+}
+.subtext{
+    color: white;
+    font-size: 1.2rem;
+}
+.gridImage{
+    width: 40px;
+    padding: 5px;
+}
+.background{
+    background-color: white;
+    border-radius: 20px;
+    padding:5px 0;
+}
+.gridTextBig{
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.gridTextSmall{
+    font-size:0.8rem;
+    padding-left: 90px;
+}
+@media (max-width: 576px) {
+  .order-xs-1 {
+    order: 1;
+  }
+  .order-xs-2 {
+    order: 2;
+  }
+  .order-xs-3 {
+    order: 3;
+  }
+  .order-xs-4 {
+    order: 4;
+  }
+  .order-xs-5 {
+    order: 5;
+  }
+  .order-xs-6 {
+    order: 6;
+    }
+}
+
+.borderLine{
+    padding-top: 40px;
+ margin-bottom: 20px;
+    border-bottom: 2px solid white;
+}
