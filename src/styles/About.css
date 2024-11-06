@@ -1,34 +1,34 @@
 .about-section {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-section{
-     background: linear-gradient(to right, rgb(237, 193, 128), rgb(1, 1, 53));
+section {
+  background: linear-gradient(to right, rgb(237, 193, 128), rgb(1, 1, 53));
 }
-h1{
-    font-size: 4rem !important;
-    font-weight: bold !important;
-    color: white !important;
+h1 {
+  font-size: 4rem !important;
+  font-weight: bold !important;
+  color: white !important;
 }
-p{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:rgb(224, 194, 194);
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(224, 194, 194);
 }
 .new {
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    color:rgb(90, 89, 89);
-    font-size: 1.2rem;
-    font-weight: normal;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg); 
-    position: absolute; 
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%) rotate(180deg);
-    letter-spacing: 15px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: rgb(90, 89, 89);
+  font-size: 1.2rem;
+  font-weight: normal;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  letter-spacing: 15px;
 }
-.social-media{
+.social-media {
   /* height: 50px; */
   /* border: 1px solid red; */
   display: flex;
@@ -37,8 +37,19 @@ p{
   background-color: #000;
   margin-top: 20px;
 }
-.social-media a{
+.social-media a {
   text-decoration: none;
   color: white;
   font-size: 2rem;
+}
+
+.name {
+  font-size: 12rem;
+  position: absolute;
+  z-index: 0;
+  top: 400px;
+  left: 100px;
+  letter-spacing: 15px;
+  font-family: "Poppins", sans-serif;
+  color: hsla(0, 13%, 51%, 0.5);
 }
